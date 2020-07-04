@@ -1,4 +1,4 @@
-# Practice repository to start learning Git 
+# Practice repository to start learning Git
 
 ## Commands used
  mkdir -p ~/code/git-practice
@@ -34,3 +34,15 @@ Or use 'git commit -m' " <Message>"
 - Don't end with a '.'
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
+
+
+## Synchronize your local git repo to github
+
+We open our account in www.github.com
+Create a new repository
+A repository contains all project files
+We select Public if we want to share our project
+##... push an existing respository from the command line
+In our  local console we use
+git remote add origin https://github.com/......
+git push -u origin master
