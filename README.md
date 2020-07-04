@@ -1,4 +1,4 @@
-# Practice repository to start learning Git
+# Practice repository to start learning Git 
 
 ## Commands used
  mkdir -p ~/code/git-practice
