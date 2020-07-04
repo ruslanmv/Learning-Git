@@ -15,7 +15,6 @@ Write the changes of the code
 Esc -> :wq-> enter
  git status
 
-
 - git init: Create a repository
 - git status: Compare working directory, staging area,  and
 current branch  
