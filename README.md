@@ -34,6 +34,7 @@ Or use 'git commit -m' " <Message>"
 - Don't end with a '.'
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
+                      https://www.youtube.com/watch?v=USjZcfj8yxE
 
 
 ## Synchronize your local git repo to github
