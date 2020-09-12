@@ -45,13 +45,20 @@ A repository contains all project files
 We select Public if we want to share our project
 ##... push an existing respository from the command line
 In our  local console we use
+
 git remote add origin https://github.com/......
+
 git push -u origin master
 
+
 ### Add new branch on github
+
 create new file called extra.txt
+
 git add extra.txt
+
 git commit -m " adding an extra.txt file"
+
 git push -u origin extra
 
 
