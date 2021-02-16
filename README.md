@@ -172,3 +172,46 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
+
+
+GitHub: Permission denied (publickey). fatal: The remote end hung up unexpectedly
+
+I have followed these instructions below to upload a project.
+
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email tirenga@gmail.com
+  Add your public key
+
+
+Next steps:
+
+  mkdir tirengarfio
+  cd tirengarfio
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:tirenga/tirenga.git
+  git push origin master
+
+
+Let us say 'yourWebApp' is the folder you have your local web app. Change it to the directory
+
+cd 'yourWebApp'
+Init git in the folder
+
+git init
+Now add your github url as a remote
+
+git remote add origin git://github.com/somename/Web-App.git
+Here origin is the short name for your url
+
+Now pull the read me file from the github repo
+
+ git pull origin master
+Now push your web app to the github repository
+
+git push origin master
