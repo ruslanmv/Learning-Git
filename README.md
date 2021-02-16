@@ -43,12 +43,39 @@ We open our account in www.github.com
 Create a new repository
 A repository contains all project files
 We select Public if we want to share our project
+Commit the files that you've staged in your local repository.
+$ git commit -m "First commit"
+# Commits the tracked changes and prepares them to be pushed to a remote repository. 
+At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
+Copy remote repository URL field
+In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+$ git remote add origin  <REMOTE_URL> 
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+Push the changes in your local repository to GitHub.
+$ git push origin main
+# Pushes the changes in your local repository up to the remote repository you specified as the or
+
+
+
+
+
+
+
+
 ##... push an existing respository from the command line
 In our  local console we use
-
-git remote add origin https://github.com/......
-
+git remote add origin <REMOTE_URL> 
 git push -u origin master
+
+
+
+
+
+
+
 
 
 ### Add new branch on github
